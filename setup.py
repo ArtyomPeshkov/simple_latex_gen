@@ -8,7 +8,6 @@ setup(
     author='Artyom',
     author_email='artemyipeshkov@gmail.com',
     url='https://github.com/ArtyomPeshkov/simple_latex_gen',
-    packages=['simple_latex_gen'],
     install_requires=[],
     classifiers=[
         'Programming Language :: Python :: 3',
