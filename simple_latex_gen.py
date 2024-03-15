@@ -12,8 +12,8 @@ def generate_latex_table(data):
 
 def generate_latex_image(path, full_file):
     latex_code = ""
-    if full_file != "":
-        latex_code += "\\documentclass{" + full_file + "}\n"
+    if full_file:
+        latex_code += "\\documentclass{article}\n"
         latex_code += "\\usepackage{graphicx}\n"
         latex_code =+ "\\begin{document}\n"
     
@@ -22,7 +22,7 @@ def generate_latex_image(path, full_file):
     latex_code += "    \\includegraphics{" + path + "}\n"
     latex_code += "\\end{figure}\n"
     
-    if full_file != "":
+    if full_file:
         latex_code += "\\end{document}\n"
 
     return latex_code
