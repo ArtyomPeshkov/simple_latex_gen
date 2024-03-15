@@ -1,0 +1,19 @@
+   package:
+     name: simple_latex_gen
+     version: 1.0
+
+   source:
+     path: .
+
+   requirements:
+     build:
+       - python
+       - pip
+     run:
+       - python
+
+   about:
+     home: https://github.com/ArtyomPeshkov/simple_latex_gen
+     license: MIT
+     summary: Primitive latex generator
+
